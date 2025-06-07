@@ -29,5 +29,6 @@ your-project/
 ```
 
 ## Notes
+
 - The app uses a trained model saved as `fire_prediction_model.pkl`.
 - For more details, see the notebook `forest_fire_prediction.ipynb`.

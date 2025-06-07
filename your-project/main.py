@@ -29,7 +29,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 sys.modules['sklearn.linear_model.logistic'] = sklearn.linear_model._logistic
 # Load the trained model
-model = joblib.load(r"C:\Users\shiva\OneDrive\Desktop\project\forest fire\final\fire_prediction_model.pkl")
+model = joblib.load("fire_prediction_model.pkl")
 
 # Streamlit app
 st.title("Forest Fire Prediction")
